@@ -1,0 +1,415 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+
+
+.dropbtn {
+    background-color: #ffffff;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #ececec;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 300px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-left: 90px;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    line-height: 1.7;
+    font-weight: 500;
+  }
+  
+  .dropdown-content a:hover {background-color: rgb(238, 238, 238)}
+  
+  .show {display:block;}
+
+#vpladenj {
+    width: 100%;
+    margin-top: 50px;
+}
+h1 {
+    font-family: Raleway;
+    font-weight: 500;
+    text-align: center;
+    font-size: 35px;
+}
+a {
+    text-decoration: none;
+}
+.main {
+    margin: 0 auto;
+    width: 70%;
+}
+.space {
+    margin: 110px 0px;
+}
+#gifp {
+    width: 70%;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+#giffL {
+    margin: 10px 0px; max-height: 770px; width: auto; max-width: 49%; float: left; display: inline-block;
+}
+#giffD {
+    margin: 10px 0px; max-height: 770px; width: auto; max-width: 49%; float: right; display: inline-block;
+}
+#A {
+    background-image: url('../images/1O5A749.jpg');
+}
+#B {
+    background-image: url('../images/Speci_vran-A_3_Moment.jpg');
+}
+#C {
+    background-image: url('../images/E\ mobilnost_Moment.jpg');
+}
+#D {
+    background-image: url('../images/vodnjak2.png');
+}
+#E {
+    background-image: url('../images/icon\ \(1\).jpg');
+}
+#F {
+    background-image: url('../images/PRIF_Skulpture_DSC08491_2020_Kristjan_Stepancic.jpg');
+}
+#G {
+    background-image: url('../images/rutka.jpg');
+}
+
+#pladenj {
+    width:100%;margin-left: auto;margin-right: auto; margin-bottom: 0px; display: block;
+}
+#gif {
+    width: 70%;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+   
+}
+
+#pladenj2 {
+    width: 45%;
+    /* max-width: 400px;
+    min-width: 340px; */
+    
+    display: inline-block;
+    height: 300px;
+    margin: 30px 10px 0px 10px;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../images/1o5a749\ \(1\).jpg');
+    /* display: inline-block;
+    width: 45%;
+    height: 300px;
+    float: right;
+  background-image: url('../images/1o5a749\ \(1\).jpg');
+  background-size: cover;
+   background-position: center;
+  margin-top: 150px; */
+}
+.link {
+  width: 31%;
+  max-width: 400px;
+  min-width: 340px;
+  border: 1px solid  #dbdbdb;
+  display: inline-block;
+  height: 300px;
+  margin: 0px 10px 140px 10px;
+  background-size: cover;
+  background-position: center;
+  vertical-align: middle;
+}
+.vodnjak {
+    width: 49%;
+    height: 400px;
+    display: inline-block;
+    background-size: cover;
+    background-position: center;
+    vertical-align: middle;
+    margin: 40px 0px;
+    border: 0px solid  #dbdbdb;
+}
+@media screen and (max-width: 950px) {
+    .vodnjak {
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 0px;
+        height: 400px;
+    }
+}
+#v {
+    background-image: url('../images/vodnjak.jpg');
+}
+#vv {
+    background-image: url('../images/vodnjak2.jpg');
+    float: right;
+}
+#container {
+   margin: 0 auto;
+   width: 90%;
+   text-align: center;
+}
+
+header {
+    display: block;
+}
+.header {
+    width: 100%;
+    background: #fff;
+    border-bottom: 1px solid #b1b1b1;
+    position: fixed;
+    padding-top: 0;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    height: 80px;
+    line-height: 50px;
+    font-family: Raleway;
+}
+#prvastran {
+    width: initial;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+p {
+    font-family: Raleway;
+    position: relative;
+    top: 310px;
+    font-weight: 500;
+    font-size: larger;
+    margin: 10px 0px;
+    letter-spacing: 1px;
+    color: black;
+}
+.foto {
+    font-size: smaller;
+    display: inline-flex;
+    font-weight: 300;
+    top: 150px;
+}
+.light {
+    font-weight: 300;
+    font-size: medium;
+    line-break: loose;
+}
+.light2 {
+    font-weight: 300;
+    font-size: medium;
+    line-break: loose;
+    line-height: 1.5; 
+     width: 50%;
+    display: inline-block;
+    max-width: 450px;
+    min-width: 405px; 
+}
+.light3 {
+    font-weight: 300;
+    font-size: medium;
+    line-break: loose;
+    line-height: 1.5; 
+     width: 100%;
+    display: inline-block;
+    top: 40px;
+}
+#home {
+    position: absolute;
+    left: 25px;
+    top: 0px;
+    z-index: 1;
+    margin: 17px 10px;
+    height: 42px;
+    width:42px;
+    display: block;
+    background-image: url("../images/home-161.png");
+    background-size: cover;  
+}
+#menu {
+    /* position: absolute; */
+    left: 90px;
+    top: 0px;
+    margin: 21px 90px;
+    height: 43px;
+    width:43px;
+    cursor: pointer;
+    /* display: block; */
+    background-image: url("../images/424912-200.png");
+    background-size: cover;
+}
+#name {
+    position: absolute;
+    top: 0px;
+    right: 25px;
+    font-size: 40px;
+    font-weight: 300;
+    margin: 15px 20px;
+    z-index: 1;
+}
+
+@media screen and (max-width: 460px) {
+    .vodnjak {
+        height: 250px;
+        margin-top: 0px;
+        margin-bottom: 20px;;
+    }
+    p {
+        top: 200px;
+        margin: 7px 0px;
+        letter-spacing: 0px;
+    }
+    #name {
+        font-size: 28px;
+         right: 0;
+         position: absolute;
+         text-align: center;
+         margin: 2px 10px;
+    }
+    #home {
+        height: 25px;
+        width: 25px;
+        margin: 13px 0px;
+        left: 15px;
+        position: absolute;
+        top: 0px;
+        display: block;
+        background-image: url("../images/home-161.png");
+        background-size: cover;
+    }
+    #menu {
+       margin-top: 0px;
+        height: 27px;
+        width:27px;
+        display: block;
+        background-image: url("../images/424912-200.png");
+        background-size: cover;
+        margin: 0px 47px;
+        padding: 12px;
+    }
+    .dropdown-content {
+        margin-top: 9px;
+        margin-left: 0px;
+        min-width: 400px;
+        
+    }
+   .header {
+       height: 50px;
+   }
+   .link {
+       width: 100%;
+       margin: 0px 0px 100px 0px;
+       min-width: 150px;
+       max-width: 310px;
+       height: 200px;
+   }
+   .space {
+       margin: 80px 0px;
+   }
+   .hide {
+       display: none;
+   }
+   #pladenj {
+       width: 100%;
+   }
+   .main {
+       width: 90%
+   }
+   h1 {
+       font-size: larger;
+   }
+   .light2 {
+       min-width: 0px;
+       width: 100%
+   }
+   #pladenj2 {
+       height: 200px;
+       margin: 10px 10px -25px 0px;
+       background-size: contain;
+       background-position: center;
+       background-repeat: no-repeat;
+       display: block;
+       width: 100%;
+   }
+   #gif {
+    width: 100%;
+    margin: 30px 0px;
+}
+
+#gifp {
+    width: 100%;
+    margin: 30px 0px 0px 0px;}
+#gifff {
+    width: 100%;
+    margin: 30px 0px; 
+    
+    display: block;  
+}
+#prvastran {
+    width: 100%;
+}
+#giffL  {
+    display: none;
+}
+#giffD {
+    display: none;
+}
+.foto {
+    top: 50px;
+}
+}
+@media screen and (max-width: 1700px) and (min-width: 460px) {
+    #pladenj2 {
+        height: 300px;
+        margin: 20px 10px 0px 10px;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: block;
+        width: 100%;
+    }
+    #gif {
+        width: 100%;
+        margin-top: 30px;
+        margin-bottom: 0px;
+    }
+    #gifff {
+        display: none;
+    }
+}
+
+
+
+
+
+

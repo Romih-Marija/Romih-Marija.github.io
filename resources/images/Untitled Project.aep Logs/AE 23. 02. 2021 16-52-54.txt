@@ -1,0 +1,8 @@
+  23. 02. 2021 16:52:54: Starting composition “menu122”.
+
+  Output To: C:\Users\Asus\Desktop\M.Romih\resources\images\menu122_2.avi    23. 02. 2021 16:53:03: Finished composition “menu122”.
+
+
+  Total Time Elapsed: 9 Seconds
+Log closed on 23. 02. 2021 at 16:53:03
+
