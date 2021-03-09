@@ -303,7 +303,8 @@ p {
     #home {
         height: 25px;
         width: 25px;
-        margin: 13px 0px;
+        m
+        argin: 13px 0px;
         left: 15px;
         position: absolute;
         top: 0px;
@@ -324,7 +325,7 @@ p {
     .dropdown-content {
         margin-top: 9px;
         margin-left: 0px;
-        min-width: 400px;
+        min-width: 500px;
         
     }
    .header {
