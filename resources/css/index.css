@@ -200,6 +200,7 @@ header {
     height: 80px;
     line-height: 50px;
     font-family: Raleway;
+   
 }
 #prvastran {
     width: initial;
@@ -379,7 +380,7 @@ p {
     display: block;  
 }
 #prvastran {
-    width: 100%;
+    max-width: -webkit-fill-available;
 }
 #giffL  {
     display: none;
